@@ -79,7 +79,7 @@ VS Code is a super cool text editor, but there are others to choose from, like S
 ### Create a new branch
 Let's create and checkout a new branch. ```git checkout -b [branch name]``` See if it created your new branch by doing ```git branch``` We'll make the changes just on this branch.
 In your local clone of your repo, make a new file and name it with the extension .html, like "index.html" or "website.html". In this file, we'll be writing HTML, our first language! Then, go to the file and double click it. It should open up in your browser, just like a normal website would!
-
+```
 <html>
  <head>
  
@@ -102,6 +102,7 @@ In your local clone of your repo, make a new file and name it with the extension
  
  </body>
 </html>
+```
 Save these changes. If we do, git status, we'll see the file was changed.
 
 Go to the file location in your file explorer/finder and double click it. It should open up in your browser and you can see the HTML code!
