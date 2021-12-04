@@ -13,11 +13,11 @@ Github is for project management! Here's some reasons to use Github:
 
 ## Github Glossary
 Some Github terms you might be confused by:
-- Git Version control system. You install this on your computer to let you easily move things to and from Github
-- Github The website hosting everything submitted by Git.
-- Repository (or repo) Any github project. Basically just a set of files hosted on GitHub.
-- Clone You can take a Github repo and clone it to your local computer so you can work on it.
-- Commit Once you have a local clone of a repo, you can submit a commit of your changes back to the parent repo. Each commit is basically a 'version', when we talk about version control.
+- Git: Version control system. You install this on your computer to let you easily move things to and from Github
+- Github: The website hosting everything submitted by Git.
+- Repository (or repo): Any github project. Basically just a set of files hosted on GitHub.
+- Clone: You can take a Github repo and clone it to your local computer so you can work on it.
+- Commit: Once you have a local clone of a repo, you can submit a commit of your changes back to the parent repo. Each commit is basically a 'version', when we talk about version control.
 (Note that git commit won't submit your code to Github on its own. The full process for committing code is git add [whatever files were changed], git commit -m "your commit message", git push. We'll go over this later.)
 
 ## Github Setup
