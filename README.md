@@ -50,6 +50,9 @@ git config --global user.name "Your name" OR
 
 git config --global user.email "your@email.com"
 
+## SSH-Key Setup
+Github recently moved away from username/password for authentication. Instead, Github now uses SSH Keys. Open your terminal, and navigate to your user home directory. Run `ssh-keygen` and follow through with all the default values. There should now be a hidden folder there called `.ssh`. CD into the folder, and open the id_rsa.pub file. Copy the contents, and then navigate to your Github settings. Go to SSH and GPG keys, and click "New SSH Key". Paste in the .pub file contents, and name the computer. Click "Add SSH Key" and you should be good!
+
 ## Repo Setup through GitHub
 Once you have a confirmed Github account, click on the + icon in the upper lefthand corner of GitHub, and select "New Repository". Name your repository whatever you want -- "My first site" or something. Add a description, decide whether you want it to be public or not, and check the box that says "initialize this repository with a README". Congrats, you just made your first Github repo!
 
